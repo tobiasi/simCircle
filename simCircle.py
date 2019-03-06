@@ -38,5 +38,5 @@ plt.show()
 
 z = np.multiply(x,x)+np.multiply(y,y)
 l = np.mean(np.sqrt(z))
-print(l)
+print('\nE[x] = ' + str(l))
     
